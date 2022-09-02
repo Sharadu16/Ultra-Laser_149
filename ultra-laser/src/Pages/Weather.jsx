@@ -60,8 +60,6 @@ const Weather = () => {
           <p>{`Max-Temp-${maxtemp}	°C`}</p>
           <p>{`Min-Temp-${mintemp}	°C`}</p>
         </div> 
-        
-      
      
     </div>
   );
