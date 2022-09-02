@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import axios from 'axios';
+import weather from './weather.css';
 
 
 const Weather = () => {
@@ -45,16 +46,20 @@ const Weather = () => {
         getData();
     },[latitude,longitude])
   return (
-    <div>
+    <div className='parent'>
         
-        
-          <h3>{city}</h3>
-          <p>{`Temperature-${temp}	°C`}</p>
+        <div>
+           <h3>{city}</h3>
+           <p>{`${temp}	°C`}</p>
+           <p>{`${wether}`}</p>
+        </div>
+          
+        <div className='child2'>
           <p>{`Humidity-${hum}%`}</p>
           <p>{`Pressure-${press};`}</p>
-          <p>{` Max-Temperature-${maxtemp}	°C`}</p>
-          <p>{`Min-Temperature-${mintemp}	°C`}</p>
-          <p>{`Weather- ${wether}`}</p>
+          <p>{`Max-Temp-${maxtemp}	°C`}</p>
+          <p>{`Min-Temp-${mintemp}	°C`}</p>
+        </div> 
         
       
      

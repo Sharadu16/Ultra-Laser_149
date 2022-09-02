@@ -3,8 +3,8 @@ import Weather from './Pages/Weather';
 
 function App() {
   return (
-    <div>
-      <p> Welcome 👋 Team Ultra-Laser</p>
+    <div className='wholeext' id="tagline">
+      <p id="ultra"> Welcome 👋 Team Ultra-Laser</p>
       <Weather/>
     </div>
   );
