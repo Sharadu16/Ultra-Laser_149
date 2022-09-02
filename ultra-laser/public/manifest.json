@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Popup Extension",
+    "description": "A demo popup experience",
+    "action": {
+      "default_icon": "hand-logo-8.png",
+      "default_popup": "index.html"
+    },
+    "icons": {
+      "48": "hand-logo-8.png"
+    },
+    "permissions": ["geolocation"]
+  }
