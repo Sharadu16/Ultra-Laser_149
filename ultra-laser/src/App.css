@@ -13,6 +13,29 @@
   }
 }
 
+.popupdiv{
+  width:100%;
+  height:auto;
+  background-color: #B66DFF;
+  ;
+  color:white;
+}
+.popupdiv h2,h1,p{
+  text-align: center;
+}
+.popupdiv>p{
+  font-size: larger;
+}
+.btn{
+  background-color: #01b8aa;
+  color:white;
+}
+.btn>div{
+  width:100px;
+  height:100px;
+  margin:auto;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

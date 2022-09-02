@@ -16,10 +16,12 @@ const Counter = () => {
     }
 
   return (
-    <div>
+    <div className='btn'>
+      <div>
         <div>Counter : {counter}</div>
         <button onClick={handleDecrement}>-</button>
         <button onClick={handleIncrement}>+</button>
+      </div>
     </div>
   )
 }

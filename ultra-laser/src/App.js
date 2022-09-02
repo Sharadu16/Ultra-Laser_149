@@ -1,12 +1,14 @@
 import './App.css';
-import Counter from './Components/Counter';
+
 
 function App() {
   return (
-    <div>
-      <p>Welcome 👋</p>
+    <div className="popupdiv">
+      <h2>Welcome 👋</h2>
       <h1>Team Ultra-Laser</h1>
-      <Counter/>
+      <p><span style={{fontSize:"35px",color:"red"}}>Impossible</span> is Nothing</p>
+      <br></br>
+      
     </div>
   );
 }
