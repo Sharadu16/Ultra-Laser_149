@@ -1,0 +1,48 @@
+
+.parent{
+    display:flex;
+    gap:30px;
+    width:50%;
+    height:auto;
+}
+.parent>div{
+    width:50%;
+    height:auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    line-height:1%;
+    text-align: center;
+    
+}
+.parent>div:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+     transform: scale(1.1);
+    
+
+    
+   
+}
+.parent>div>h3{
+    color:#5e82f4;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.parent>div>h3+p{
+    color:black;
+    font-size: 45px;
+    font-weight: bold;
+}
+.parent>div>h3+p+p{
+    color:#5e82f4;
+    font-size: 20px;
+    font-weight: bold;
+}
+.child2{
+    background-color: teal;
+}
+.child2>p{
+    color:white;
+    font-size: large;
+    line-height: 1.2;
+}
