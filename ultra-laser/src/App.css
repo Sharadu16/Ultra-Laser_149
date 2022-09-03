@@ -14,10 +14,10 @@
 }
 
 .wholeext{
-  width:800px;
+  width:100%;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  padding-bottom: 25px;
-  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-left: 40px;
   padding-top: 1px;
 }
 

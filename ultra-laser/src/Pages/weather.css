@@ -1,9 +1,10 @@
 
 .parent{
     display:flex;
-    gap:30px;
-    width:50%;
+    gap:35px;
+    width:85%;
     height:auto;
+    
 }
 .parent>div{
     width:50%;
